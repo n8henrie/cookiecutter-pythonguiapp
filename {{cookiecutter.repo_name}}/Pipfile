@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+wxpython = "*"
+pyinstaller = "*"
+
+[dev-packages]
+recommonmark = "*"
+sphinx-rtd-theme = "*"
+Sphinx = "*"
+twine = "*"
+
+[requires]
+python_version = "3.6"
